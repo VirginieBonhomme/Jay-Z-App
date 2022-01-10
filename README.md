@@ -1,4 +1,4 @@
-# JiggaApp
+# Jay-Z App
 # 
 
 
@@ -92,24 +92,25 @@ Airtable is returning the data for this base as follows:
 
 | Component                 | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------------- | :------: | :------------: | :-----------: | :---------: |
-| Proposal                  |    H     |      2hrs      |     2hrs      |    2hrs     |
-| Airtable setup            |    H     |     .5hrs      |      1hr      |     1hr     |
-| Clickable icons           |    H     |      1hrs      |      1hr      |     1hr     |
-| Data population pg 1      |    H     |      3hrs      |     3hrs      |    3hrs     |
-| Data population pg 2      |    H     |      3hrs      |     2hrs      |    2hrs     |
-| Data population pg 3      |    H     |      3hrs      |     2hrs      |    2hrs     |
-| Form creation pg 1        |    H     |      2hrs      |     2hrs      |    2hrs     |
-| Form creation pg 2        |    H     |      2hrs      |     1 hr      |    1 hr     |
-| Form creation pg 3        |    H     |      2hrs      |     1 hr      |     1hr     |
-| Data creation/update pg 1 |    H     |      3hrs      |     3hrs      |    3hrs     |
-| Data creation/update pg 2 |    H     |      3hrs      |      1hr      |     1hr     |
-| Data creation/update pg 3 |    H     |      3hrs      |      1hr      |     1hr     |
-| Data deletion pg 1        |    H     |      2hrs      |      1hr      |     1hr     |
-| Data deletion pg 2        |    H     |      2hrs      |      1hr      |     1hr     |
-| Data deletion pg 3        |    H     |      2hrs      |      1hr      |     1hr     |
-| Component CSS pg 1        |    H     |      3hrs      |     4hrs      |    4hrs     |
-| Component CSS pg 2        |    H     |      3hrs      |     4hrs      |    4hrs     |
-| Component CSS pg 3        |    H     |      3hrs      |     4hrs      |    4hrs     |
+| Proposal                  |    H     |      2hrs      |      hrs      |     hrs     |
+| Airtable setup            |    H     |      1hrs      |       hr      |      hr     |
+| Clickable icons           |    H     |      3hrs      |       hr      |      hr     |
+| Data population pg 1      |    H     |      4hrs      |      hrs      |     hrs     |
+| Data population pg 2      |    H     |      4hrs      |      hrs      |     hrs     |
+| Data population pg 3      |    H     |      4hrs      |      hrs      |     hrs     |
+| Data population pg 4      |    H     |      4hrs      |      hrs      |     hrs     |
+| Form creation pg 1        |    H     |      4hrs      |      hrs      |     hrs     |
+| Form creation pg 2        |    H     |      4hrs      |      hrs      |      hr     |
+| Form creation pg 3        |    H     |      4hrs      |      hrs      |      hr     |
+| Form creation pg 4        |    H     |      4hrs      |      hrs      |      hr     |
+| Data creation/update pg 1 |    H     |      4hrs      |      hrs      |     hrs     |
+| Data creation/update pg 2 |    H     |      4hrs      |      hrs      |      hr     |
+| Data creation/update pg 3 |    H     |      4hrs      |      hrs      |      hr     |
+| Data creation/update pg 4 |    H     |      4hrs      |      hrs      |      hr     |
+| Component CSS pg 1        |    H     |      3hrs      |      hrs      |     hrs     |
+| Component CSS pg 2        |    H     |      3hrs      |      hrs      |     hrs     |
+| Component CSS pg 3        |    H     |      3hrs      |      hrs      |     hrs     |
+| Component CSS pg 4        |    H     |      3hrs      |      hrs      |     hrs     |
 | Total                     |    H     |    42.5hrs     |     35hrs     |    35hrs    |
 
 ## SWOT Analysis
