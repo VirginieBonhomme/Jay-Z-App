@@ -86,7 +86,7 @@ Airtable is returning the data for this base as follows:
 | Jan 13-14| Component Creation /Post                   |          |
 | Jan 15   | CSS Components                             |          |
 | Jan 16   | Advanced CSS                               |          |
-| Jan 17   | Presentations                              |          |
+| Jan 18   | Presentations                              |          |
 
 ## Timeframes
 
