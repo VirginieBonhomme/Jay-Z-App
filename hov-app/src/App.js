@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+// import { Routes, Route } from "react-router-dom";
 import './App.css';
+import Header from "./Components/Header.jsx"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <Header />
+      <div>
+        <h1>Gather Around Hustlers... </h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          That’s if your interested in picking up some inspirational gems from Brooklyn’s own wordsmith Jay-Z.
+          From Marcy to Madison square Jay-z has proven that success starts from with in.
+          With his wit and in-depth self reflection Jigga man has inspired many through his introspective raps.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
+      <container>
+
+      </container>
     </div>
   );
 }
