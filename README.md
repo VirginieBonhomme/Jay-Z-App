@@ -7,10 +7,13 @@
 
 
 ## Wireframes
+![imageAlt](https://www.figma.com/file/HSu0xenosMnsYxAKQeAB3V/JAY-Z-APP?node-id=1%3A2)
+![imageAlt](https://www.figma.com/file/HSu0xenosMnsYxAKQeAB3V/JAY-Z-APP?node-id=78%3A16)
 
 
 
 ## Component Hierarchy
+![imageAlt](https://www.figma.com/file/HSu0xenosMnsYxAKQeAB3V/JAY-Z-APP?node-id=91%3A2)
 
 
 
