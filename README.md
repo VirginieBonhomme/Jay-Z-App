@@ -7,8 +7,8 @@
 The Jay-Z App is an app that allows users to read and share their favorite inspirational Jay-Z lyrics. 
 
 ## Wireframes
-[imageAlt](https://www.figma.com/file/HSu0xenosMnsYxAKQeAB3V/JAY-Z-APP?node-id=1%3A2)
-![imageAlt](https://www.figma.com/file/HSu0xenosMnsYxAKQeAB3V/JAY-Z-APP?node-id=78%3A16)
+[Figma WireFrame-Home page](https://www.figma.com/file/HSu0xenosMnsYxAKQeAB3V/JAY-Z-APP?node-id=1%3A2)
+[Figma Wireframe-Lyrics page](https://www.figma.com/file/HSu0xenosMnsYxAKQeAB3V/JAY-Z-APP?node-id=78%3A16)
 
 
 
