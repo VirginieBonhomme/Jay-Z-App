@@ -66,27 +66,27 @@ Airtable is returning the data for this base as follows:
 
 #### MVP
 
-- 
-- 
-- 
-- 
+- Home page with clickable icons that route to each respective feed
+- Get and post lyrics from Airtable.
+- Use forms to create lyric and update Airtable.
+ 
 
 #### PostMVP
 
-- 
-- 
-- 
+- Like your favorite lyric
+- Edit post
+
 
 ## Project Schedule
 
 | Day      | Deliverable                                | Status   |
 | -------- | ------------------------------------------ | -------- |
-| Oct 9-11 | Proposal Approval / Airtable Setup         | Complete |
-| Oct 12   | Component Creation / Get, Set, Delete Data | Complete |
-| Oct 13   | Oct. 12 cont'd / CSS Components            | Complete |
-| Oct 14   | CSS Components cont'd / MVP                | Complete |
-| Oct 15   | Advanced CSS                               | Complete |
-| Oct 16   | Presentations                              | Complete |
+| Jan 10   | Proposal Approval / Airtable Setup         |          |
+| Jan 11-12| Component Creation / Get, Set              |          |
+| Jan 13-14| Component Creation /Post                   |          |
+| Jan 15   | CSS Components                             |          |
+| Jan 16   | Advanced CSS                               |          |
+| Jan 17   | Presentations                              |          |
 
 ## Timeframes
 
@@ -111,7 +111,7 @@ Airtable is returning the data for this base as follows:
 | Component CSS pg 2        |    H     |      3hrs      |      hrs      |     hrs     |
 | Component CSS pg 3        |    H     |      3hrs      |      hrs      |     hrs     |
 | Component CSS pg 4        |    H     |      3hrs      |      hrs      |     hrs     |
-| Total                     |    H     |    42.5hrs     |     35hrs     |    35hrs    |
+| Total                     |    H     |    66.5hrs     |       hrs     |      hrs    |
 
 ## SWOT Analysis
 
