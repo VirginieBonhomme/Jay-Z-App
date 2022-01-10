@@ -33,7 +33,7 @@ Airtable is returning the data for this base as follows:
                 "category": "The Blueprint",
                 "song": "A Dream",
                 "album": "The Blueprint 2: The Gift & The Curse",
-                "lyrics": "\"Remind yourself, nobody’s built like you. You design yourself\""
+                "lyrics": "Remind yourself, nobody’s built like you. You design yourself"
             },
             "createdTime": "2022-01-09T14:41:01.000Z"
         },
@@ -43,7 +43,7 @@ Airtable is returning the data for this base as follows:
                 "category": "The Blueprint",
                 "song": "What We Talkin' About?",
                 "album": "The Blueprint 3",
-                "lyrics": "\"They talk. We live. Who cares what they say?\""
+                "lyrics": "They talk. We live. Who cares what they say?"
             },
             "createdTime": "2022-01-09T14:42:40.000Z"
         },
@@ -53,13 +53,14 @@ Airtable is returning the data for this base as follows:
                 "category": "The Blueprint",
                 "song": "U Don't Know",
                 "album": "The Blueprint",
-                "lyrics": "\"Mama ain't raised no fool / Put me anywhere on God's green earth, I'll triple my worth\""
+                "lyrics": "Mama ain't raised no fool / Put me anywhere on God's green earth, I'll triple my worth"
             },
             "createdTime": "2022-01-09T14:49:44.000Z"
         }
     ],
-    "offset": "itrGkQx9oJ3qsjGPh/rec7mMIbNVTmGGb7J"
+    "offset": "itrwwOgw87BWPgmD1/rec7mMIbNVTmGGb7J"
 }
+
 
 ```
 
