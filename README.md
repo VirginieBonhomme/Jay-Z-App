@@ -4,10 +4,10 @@
 
 
 ## Project Description
-
+The Jay-Z App is an app that allows users to read and share their favorite inspirational Jay-Z lyrics. 
 
 ## Wireframes
-![imageAlt](https://www.figma.com/file/HSu0xenosMnsYxAKQeAB3V/JAY-Z-APP?node-id=1%3A2)
+[imageAlt](https://www.figma.com/file/HSu0xenosMnsYxAKQeAB3V/JAY-Z-APP?node-id=1%3A2)
 ![imageAlt](https://www.figma.com/file/HSu0xenosMnsYxAKQeAB3V/JAY-Z-APP?node-id=78%3A16)
 
 
@@ -75,7 +75,7 @@ Airtable is returning the data for this base as follows:
 
 - Like your favorite lyric
 - Edit post
-
+- Add animations
 
 ## Project Schedule
 
@@ -94,7 +94,7 @@ Airtable is returning the data for this base as follows:
 | ------------------------- | :------: | :------------: | :-----------: | :---------: |
 | Proposal                  |    H     |      2hrs      |      hrs      |     hrs     |
 | Airtable setup            |    H     |      1hrs      |       hr      |      hr     |
-| Clickable icons           |    H     |      3hrs      |       hr      |      hr     |
+| Clickable buttons         |    H     |      3hrs      |       hr      |      hr     |
 | Data population pg 1      |    H     |      4hrs      |      hrs      |     hrs     |
 | Data population pg 2      |    H     |      4hrs      |      hrs      |     hrs     |
 | Data population pg 3      |    H     |      4hrs      |      hrs      |     hrs     |
