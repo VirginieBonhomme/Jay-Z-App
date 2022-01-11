@@ -1,0 +1,18 @@
+.card-container {
+width: 300px;
+overflow: hidden;
+border: 10px black ;
+border-width: 50px;
+border-radius: 30px;
+}
+
+.image-container{
+  overflow: hidden;
+height: 200px;
+}
+
+img{
+widows: 300px;
+height: 200px;
+overflow: hidden;
+}
