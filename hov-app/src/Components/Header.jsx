@@ -1,16 +1,18 @@
 import React from 'react'
 import HovHeader from '../Img/BlueHov1.jpg';
-// import { Link } from "react-router-dom";
+import './Header.css';
+import { Link } from "react-router-dom";
 
 
 
-export default function Header() {
+export default function Header(props) {
+  const { homeButton, route2 } = props;
   return (
     <div className='header-container'>
       <div className='button-container'>
-        <button>Home</button>
+        <Link to={route2}><button>{homeButton}</button></Link>
       </div>
-      <div className='image-container'>
+      <div className='headerimage-container'>
         <img src={HovHeader} alt="Picture of Jay-z with blue tint" />
       </div>
 

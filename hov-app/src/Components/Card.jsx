@@ -1,8 +1,21 @@
-import React from 'react'
+import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom';
 import './Card.css'
 
+const defaultInput = {
+  category: "",
+  song: ""
+}
 export default function Card(props) {
-  const { imageURL, title, description } = props;
+  const { imageURL, title, description, button, route } = props;
+  const [input, setInput] = useState(defaultInput)
+  useEffect(() => {
+    setInput((prevState) => ({
+      ...prevState,
+      category: button
+    }))
+  }, [])
+
   return (
     <div className='card-container'>
       <div className='card-content'>
@@ -16,7 +29,7 @@ export default function Card(props) {
           <p>{description}</p>
         </div>
         <div className='button-container'>
-          <button>Click Me</button>
+          <Link to={route}><button>{button}</button></Link>
         </div>
         <div />
       </div>
