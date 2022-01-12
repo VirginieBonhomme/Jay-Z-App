@@ -6,6 +6,9 @@ import HovImg1 from '../Img/Hov-1.jpg'
 import HovImg2 from '../Img/Hov-2.jpg';
 import HovImg3 from '../Img/Hov-3.jpg';
 import HovImg4 from '../Img/Hov-4.jpg';
+
+
+
 export default function HomePage() {
 
 
@@ -13,13 +16,11 @@ export default function HomePage() {
 
     <div>
       <Header
-        homeButton="Home"
-        route2="/"
+        button="Home"
+        route="/"
       />
       <Mission
-        statment="That’s if your interested in picking up some inspirational gems from Brooklyn’s own wordsmith Jay-Z. 
-      From Marcy to Madison square Jay-z has proven that success starts from with in. With his wit and in-depth self reflection 
-      Jigga man has inspired many through his introspective raps"
+        statment={"That’s if your interested in picking up some inspirational gems from Brooklyn’s own wordsmith Jay-Z. From Marcy to Madison square Jay-z has proven that success starts from with in. With his wit and in-depth self reflection Jigga man has inspired many through his introspective raps"}
       />
       <Card
         imageURL={HovImg1}

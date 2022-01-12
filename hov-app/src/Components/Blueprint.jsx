@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
 import api from '../services/apiConfig.js/index.js'
 import Form from './Form'
+import Header from './Header.jsx'
+import Mission from './Mission.jsx'
 
 const defaultInput = {
   category: "",
@@ -42,12 +44,14 @@ export default function Blueprint() {
 
   return (
     <div className='blueprint-container'>
+      <Header />
       <h3>The Blueprint</h3>
-      <p>Being the first of many Jay-Z is a clear blueprint on all things successful. Here are some bars that will inspire you to craft your own blueprint.</p>
+      <Mission
+        statement={"Being the first of many Jay-Z is a clear blueprint on all things successful. Here are some bars that will inspire you to craft your own blueprint."}
+      />
       <div className='lyrics-container'>
         {bars.map((bars) => {
           return (<h4>{bars.fields.category[TheBlueprint].lyrics.song.album}</h4>);
-
         })}
       </div>
       <div>
