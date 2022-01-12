@@ -8,25 +8,33 @@ export default function Form(props) {
   return (
     <div>
       <form onSubmit={props.handleSubmit}>
-        <lable>Album</lable>
-        <input>
+        <label>Album</label>
+        <input
+          name="album"
           type="text"
           value={album}
           onChange={props.handleTextInput}
-        </input>
-        <lable>Song</lable>
-        <input>
+        />
+
+
+        <label>Song</label>
+        <input
+          name="song"
           type="text"
           value={song}
           onChange={props.handleTextInput}
-        </input>
-        <lable>Album</lable>
-        <input>
+        />
+
+
+        <label>Lyrics</label>
+        <input
+          name="lyrics"
           type="textarea"
           value={lyrics}
           onChange={props.handleTextInput}
-        </input>
-        <button>{props.type}Submit</button>
+        />
+
+        <button>{props.type}</button>
       </form>
     </div>
   )
