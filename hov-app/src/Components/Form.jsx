@@ -15,8 +15,7 @@ export default function Form(props) {
           value={album}
           onChange={props.handleTextInput}
         />
-
-
+        <br />
         <label>Song</label>
         <input
           name="song"
@@ -24,8 +23,7 @@ export default function Form(props) {
           value={song}
           onChange={props.handleTextInput}
         />
-
-
+        <br />
         <label>Lyrics</label>
         <input
           name="lyrics"
@@ -33,7 +31,7 @@ export default function Form(props) {
           value={lyrics}
           onChange={props.handleTextInput}
         />
-
+        <br />
         <button>{props.type}</button>
       </form>
     </div>

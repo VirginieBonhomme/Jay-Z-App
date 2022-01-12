@@ -60,10 +60,10 @@ export default function Blueprint() {
       <Mission
         statement={"Being the first of many Jay-Z is a clear blueprint on all things successful. Here are some bars that will inspire you to craft your own blueprint."}
       />
-      <div className='lyrics-container'>
+      <div>
         {bars.map((bar) => {
           return (
-            <div>
+            <div className='lyrics-container'>
               <div>
                 <h4>Lyrics: {bar.fields?.lyrics}</h4>
                 <h4>Album: {bar.fields?.album}</h4>
@@ -74,7 +74,7 @@ export default function Blueprint() {
           );
         })}
       </div>
-      <div>
+      <div className='form-container'>
         <Form
           input={input}
           handleTextInput={handleTextInput}
