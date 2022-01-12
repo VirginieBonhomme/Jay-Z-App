@@ -6,7 +6,6 @@ import HovImg1 from '../Img/Hov-1.jpg'
 import HovImg2 from '../Img/Hov-2.jpg';
 import HovImg3 from '../Img/Hov-3.jpg';
 import HovImg4 from '../Img/Hov-4.jpg';
-
 export default function HomePage() {
 
 
