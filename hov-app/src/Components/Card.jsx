@@ -1,20 +1,10 @@
-// import { useState, useEffect } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom';
 import './Card.css'
 
-// const defaultInput = {
-//   category: "",
-//   song: ""
-// }
+
 export default function Card(props) {
   const { imageURL, title, description, button, route } = props;
-  // const [input, setInput] = useState(defaultInput)
-  // useEffect(() => {
-  //   setInput((prevState) => ({
-  //     ...prevState,
-  //     category: button
-  //   }))
-  // }, [])
 
   return (
     <div className='card-container'>
