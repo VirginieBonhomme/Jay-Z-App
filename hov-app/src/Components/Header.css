@@ -17,7 +17,8 @@
 .home-button-container{
  margin-top: 20px;
  margin-right: 20px;
-
+ position: absolute;
+ z-index: 2;
 }
 
 .home-title-container{
