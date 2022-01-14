@@ -7,7 +7,8 @@ export default function Form(props) {
   const { album, song, lyrics } = props.input
 
   return (
-    <div>
+    <div className='main-form-container'>
+      <h2>Share Your Favorite Jay-Z Lyrics</h2>
       <form onSubmit={props.handleSubmit}>
         <label>Album</label>
         <input

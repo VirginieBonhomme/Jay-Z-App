@@ -60,7 +60,7 @@ export default function Legacy() {
       <Mission
         statement={"Being the first of many Jay-Z is a clear blueprint on all things successful. Here are some bars that will inspire you to craft your own blueprint."}
       />
-      <div>
+      <div className='main-lyric-container'>
         {bars.map((bar) => {
           return (
             <div className='lyrics-container'>

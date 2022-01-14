@@ -56,11 +56,9 @@ export default function FriendsOrFoes() {
         route="/"
         button="Home"
       />
-      <h3>Friends or Foes</h3>
-      <Mission
-        statement={"Being the first of many Jay-Z is a clear blueprint on all things successful. Here are some bars that will inspire you to craft your own blueprint."}
-      />
-      <div>
+      <h2>Friends or Foes</h2>
+      <p>Being the first of many Jay-Z is a clear blueprint on all things successful. Here are some bars that will inspire you to craft your own blueprint.</p>
+      <div className='main-lyric-container'>
         {bars.map((bar) => {
           return (
             <div className='lyrics-container'>
