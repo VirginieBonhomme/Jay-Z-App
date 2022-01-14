@@ -34,13 +34,7 @@ export default function HomePage() {
           route="/bars/blueprint"
           button="The Blueprint"
         />
-        <Card
-          imageURL={HovImg2}
-          title="Friends or Foes"
-          description={"The ablilty to move in a room full of vultures is not only a skill but can also be life saving. Here are some bars to keep you on your toes."}
-          route="/bars/friendsorfoes"
-          button="Friends Or Foes"
-        />
+
         <Card
           imageURL={HovImg3}
           title="Nobody Wins When the 
@@ -49,6 +43,15 @@ export default function HomePage() {
           route="/bars/nobodywins"
           button="Nobody Wins"
         />
+
+        <Card
+          imageURL={HovImg2}
+          title="Friends or Foes"
+          description={"The ablilty to move in a room full of vultures is not only a skill but can also be life saving. Here are some bars to keep you on your toes."}
+          route="/bars/friendsorfoes"
+          button="Friends Or Foes"
+        />
+
         <Card
           imageURL={HovImg4}
           title="Legacy, Legacy, Legacy "
