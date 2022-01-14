@@ -54,8 +54,9 @@ export default function NobodyWins() {
   return (
     <div className='Nobody Wins-container'>
       <Header
-        route="/"
+        title="Jigga-Said-What?"
         button="Home"
+        route="/"
       />
       <h2>Nobody Wins When The Family Feuds</h2>
       <p>Jay reminds us  “Let no amount of money ruin this thing of ours.”Here are some bars to remind us that money isn’t worth much with out the ones you love.</p>

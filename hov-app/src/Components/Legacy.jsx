@@ -53,8 +53,9 @@ export default function Legacy() {
   return (
     <div className='blueprint-container'>
       <Header
-        route="/"
+        title="Jigga-Said-What?"
         button="Home"
+        route="/"
       />
       <h2>Legacy, Legacy, Legacy</h2>
       <p>Generational wealth that’s the key. Here are some Jigga bars that can inspire your money moves.</p>

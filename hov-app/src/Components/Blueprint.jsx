@@ -55,8 +55,9 @@ export default function Blueprint() {
   return (
     <div className='blueprint-container'>
       <Header
-        route="/"
+        title="Jigga-Said-What?"
         button="Home"
+        route="/"
       />
       <h2>The Blueprint</h2>
       <p>Being the first of many Jay-Z is a clear blueprint on all things successful. Here are some bars that will inspire you to craft your own blueprint.</p>

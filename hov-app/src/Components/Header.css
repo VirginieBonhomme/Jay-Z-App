@@ -1,30 +1,33 @@
 .header-container {
   box-sizing: border-box;
-  width: 100%;
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: stretch;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-.headerimage-container{
-  box-sizing: border-box;
+  justify-content: flex-end;
+  height: 600px;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
- 
-  margin-bottom: 2em;
-}
-
-.headerimage{
-  background-clip: content-box;
-  background-size: cover;
+  background-image: url("../Img/BlueHov1.jpg");
+  background-size: 100% auto;
+  background-position: center;
   background-repeat: no-repeat;
-  height: 80vh;
-  width: 100vh;
+  position: relative;
+
+}
+
+
+
+.home-button-container{
+ margin-top: 20px;
+ margin-right: 20px;
+
+}
+
+.home-title-container{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
   display: flex;
-  justify-content: center;
+  align-items: center; 
+  justify-content: center; 
+  font-family: 'Aclonica', sans-serif;
+  font-size: 40px;
 }

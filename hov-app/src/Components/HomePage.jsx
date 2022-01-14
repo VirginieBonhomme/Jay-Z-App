@@ -17,6 +17,7 @@ export default function HomePage() {
 
     <div>
       <Header
+        title="Jigga-Said-What?"
         button="Home"
         route="/"
       />

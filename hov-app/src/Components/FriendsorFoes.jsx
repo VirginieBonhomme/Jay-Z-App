@@ -53,8 +53,9 @@ export default function FriendsOrFoes() {
   return (
     <div className='friends-container'>
       <Header
-        route="/"
+        title="Jigga-Said-What?"
         button="Home"
+        route="/"
       />
       <h2>Friends or Foes</h2>
       <p>The ablilty to move in a room full of vultures is not only a skill but can also be life saving. Here are some bars to keep you on your toes. </p>
