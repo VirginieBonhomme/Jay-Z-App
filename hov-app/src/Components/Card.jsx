@@ -10,7 +10,7 @@ export default function Card(props) {
     <div className='card-container'>
       <div className='card-content'>
         <div className='image-container'>
-          <img src={imageURL} alt='' />
+          <img className='home-image' src={imageURL} alt='' />
         </div>
         <div className='title-container'>
           <h3>{title}</h3>
@@ -19,7 +19,7 @@ export default function Card(props) {
           <p>{description}</p>
         </div>
         <div className='button-container'>
-          <Link to={route}><button>{button}</button></Link>
+          <Link className='card-button' to={route}><button>{button}</button></Link>
         </div>
         <div />
       </div>

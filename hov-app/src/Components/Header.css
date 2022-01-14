@@ -1,11 +1,30 @@
 .header-container {
+  box-sizing: border-box;
   width: 100%;
-  height: 100%;
-  text-align: center;
-  background: #222;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .headerimage-container{
+  box-sizing: border-box;
   width: 100%;
-  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+ 
+  margin-bottom: 2em;
+}
+
+.headerimage{
+  background-clip: content-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100vh;
+  display: flex;
+  justify-content: center;
 }

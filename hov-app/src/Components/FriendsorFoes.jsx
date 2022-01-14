@@ -57,13 +57,13 @@ export default function FriendsOrFoes() {
         button="Home"
       />
       <h2>Friends or Foes</h2>
-      <p>Being the first of many Jay-Z is a clear blueprint on all things successful. Here are some bars that will inspire you to craft your own blueprint.</p>
+      <p>The ablilty to move in a room full of vultures is not only a skill but can also be life saving. Here are some bars to keep you on your toes. </p>
       <div className='main-lyric-container'>
         {bars.map((bar) => {
           return (
             <div className='lyrics-container'>
               <div>
-                <h4>Lyrics: {bar.fields?.lyrics}</h4>
+                <h4>{bar.fields?.lyrics}</h4>
                 <h4>Album: {bar.fields?.album}</h4>
                 <h4>Song: {bar.fields?.song}</h4>
                 <br />

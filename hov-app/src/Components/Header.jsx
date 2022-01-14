@@ -13,7 +13,7 @@ export default function Header(props) {
         <Link to={route}><button>{button}</button></Link>
       </div>
       <div className='headerimage-container'>
-        <img src={HovHeader} alt="Picture of Jay-z with blue tint" />
+        <img className='headerimage' src={HovHeader} alt="Picture of Jay-z with blue tint" />
       </div>
 
     </div>

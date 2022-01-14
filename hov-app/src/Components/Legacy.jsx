@@ -56,16 +56,15 @@ export default function Legacy() {
         route="/"
         button="Home"
       />
-      <h3>The Blueprint</h3>
-      <Mission
-        statement={"Being the first of many Jay-Z is a clear blueprint on all things successful. Here are some bars that will inspire you to craft your own blueprint."}
-      />
+      <h2>Legacy, Legacy, Legacy</h2>
+      <p>Generational wealth that’s the key. Here are some Jigga bars that can inspire your money moves.</p>
+
       <div className='main-lyric-container'>
         {bars.map((bar) => {
           return (
             <div className='lyrics-container'>
               <div>
-                <h4>Lyrics: {bar.fields?.lyrics}</h4>
+                <h4>{bar.fields?.lyrics}</h4>
                 <h4>Album: {bar.fields?.album}</h4>
                 <h4>Song: {bar.fields?.song}</h4>
                 <br />

@@ -37,7 +37,7 @@ export default function HomePage() {
         <Card
           imageURL={HovImg2}
           title="Friends or Foes"
-          description={" the ablilty to move in a room full of vultures is not only a skill but can also be life saving. Here are some bars to keep you on your toes. "}
+          description={"The ablilty to move in a room full of vultures is not only a skill but can also be life saving. Here are some bars to keep you on your toes."}
           route="/bars/friendsorfoes"
           button="Friends Or Foes"
         />
