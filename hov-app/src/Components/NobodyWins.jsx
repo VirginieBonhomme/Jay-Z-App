@@ -3,6 +3,7 @@ import api from '../services/apiConfig/index.js'
 import Form from './Form'
 import Header from './Header.jsx'
 import Mission from './Mission.jsx'
+import './NobodyWins.css'
 
 const defaultInput = {
   category: "",
@@ -63,14 +64,14 @@ export default function NobodyWins() {
       <div>
         {bars.map((bar) => {
           return (
+
             <div className='lyrics-container'>
-              <div>
-                <h4>Lyrics: {bar.fields?.lyrics}</h4>
-                <h4>Album: {bar.fields?.album}</h4>
-                <h4>Song: {bar.fields?.song}</h4>
-                <br />
-              </div>
+              <h4>Lyrics: {bar.fields?.lyrics}</h4>
+              <h4>Album: {bar.fields?.album}</h4>
+              <h4>Song: {bar.fields?.song}</h4>
+              <br />
             </div>
+
           );
         })}
       </div>

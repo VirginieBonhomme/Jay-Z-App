@@ -1,0 +1,10 @@
+.lyrics-container{
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* align-content: space-around; */
+  justify-content: space-evenly;
+}
+

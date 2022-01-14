@@ -1,5 +1,5 @@
 img{
-  widows: 300px;
+  width: 300px;
   height: 200px;
   overflow: hidden;
   border-radius: 30px;
@@ -9,6 +9,7 @@ img{
 width: 300px;
 overflow: hidden;
 color: aliceblue;
+justify-content: center;
 }
 
 .image-container{
