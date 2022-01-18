@@ -23,9 +23,8 @@ export default function Blueprint() {
     const fetchLyrics = async () => {
       const res = await api.get();
       const filteredBars = res.data.records.filter(bars => {
-        if (bars.fields.category === "The Blueprint") {
-          return (bars)
-        }
+        return bars.fields.category === "The Blueprint"
+
       })
       setBars(filteredBars);
     };
@@ -65,7 +64,7 @@ export default function Blueprint() {
       <div className='main-lyric-container'>
         {bars.map((bar) => {
           return (
-            <div>
+            <div key={bar.id}>
               <div className='lyrics-container'>
                 <h4>{bar.fields?.lyrics}</h4>
                 <h4>Album: {bar.fields?.album}</h4>

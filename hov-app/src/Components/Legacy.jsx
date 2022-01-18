@@ -22,9 +22,7 @@ export default function Legacy() {
     const fetchLyrics = async () => {
       const res = await api.get();
       const filteredBars = res.data.records.filter(bars => {
-        if (bars.fields.category === "Legacy") {
-          return (bars)
-        }
+        return bars.fields.category === "Legacy"
       })
       setBars(filteredBars);
     };
@@ -36,7 +34,7 @@ export default function Legacy() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     const fields = input;
-    const res = await api.post("", { fields });
+    await api.post("", { fields });
     setInput(defaultInput);
     setToggle(prevToggle => !prevToggle)
   };
@@ -64,7 +62,7 @@ export default function Legacy() {
       <div className='main-lyric-container'>
         {bars.map((bar) => {
           return (
-            <div className='lyrics-container'>
+            <div key={bar.id} className='lyrics-container'>
               <div>
                 <h4>{bar.fields?.lyrics}</h4>
                 <h4>Album: {bar.fields?.album}</h4>

@@ -22,9 +22,7 @@ export default function FriendsOrFoes() {
     const fetchLyrics = async () => {
       const res = await api.get();
       const filteredBars = res.data.records.filter(bars => {
-        if (bars.fields.category === "Friends or Foes") {
-          return (bars)
-        }
+        return bars.fields.category === "Friends or Foes"
       })
       setBars(filteredBars);
     };
@@ -64,7 +62,7 @@ export default function FriendsOrFoes() {
       <div className='main-lyric-container'>
         {bars.map((bar) => {
           return (
-            <div className='lyrics-container'>
+            <div key={bar.id} className='lyrics-container'>
               <div>
                 <h4>{bar.fields?.lyrics}</h4>
                 <h4>Album: {bar.fields?.album}</h4>

@@ -23,9 +23,8 @@ export default function NobodyWins() {
     const fetchLyrics = async () => {
       const res = await api.get();
       const filteredBars = res.data.records.filter(bars => {
-        if (bars.fields.category === "Nobody Wins") {
-          return (bars)
-        }
+        return bars.fields.category === "Nobody Wins"
+
       })
       setBars(filteredBars);
     };
@@ -37,7 +36,7 @@ export default function NobodyWins() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     const fields = input;
-    const res = await api.post("", { fields });
+    await api.post("", { fields });
     setInput(defaultInput);
     setToggle(prevToggle => !prevToggle)
   };
@@ -67,7 +66,7 @@ export default function NobodyWins() {
         {bars.map((bar) => {
           return (
 
-            <div className='lyrics-container'>
+            <div key={bar.id} className='lyrics-container'>
               <h4>{bar.fields?.lyrics}</h4>
               <h4>Album: {bar.fields?.album}</h4>
               <h4>Song: {bar.fields?.song}</h4>
