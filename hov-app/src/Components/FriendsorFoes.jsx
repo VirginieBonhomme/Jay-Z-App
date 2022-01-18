@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import api from '../services/apiConfig/index.js'
 import Form from './Form'
 import Header from './Header.jsx'
-import Mission from './Mission.jsx'
+
 
 const defaultInput = {
   category: "",
@@ -36,7 +36,7 @@ export default function FriendsOrFoes() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     const fields = input;
-    const res = await api.post("", { fields });
+    await api.post("", { fields });
     setInput(defaultInput);
     setToggle(prevToggle => !prevToggle)
   };
@@ -53,12 +53,14 @@ export default function FriendsOrFoes() {
   return (
     <div className='friends-container'>
       <Header
-        title="Jigga-Said-What?"
+        title="Hov-Said-What?"
         button="Home"
         route="/"
       />
       <h2>Friends or Foes</h2>
-      <p>The ablilty to move in a room full of vultures is not only a skill but can also be life saving. Here are some bars to keep you on your toes. </p>
+      <div className='paragraph-container'>
+        <p>The ablilty to move in a room full of vultures is not only a skill but can also be life saving. Here are some bars to keep you on your toes. </p>
+      </div>
       <div className='main-lyric-container'>
         {bars.map((bar) => {
           return (

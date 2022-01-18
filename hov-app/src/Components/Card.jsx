@@ -10,7 +10,7 @@ export default function Card(props) {
     <div className='card-container'>
       <div className='card-content'>
         <div className='image-container'>
-          <img className='home-image' src={imageURL} alt='' />
+          <img className='home-image' src={imageURL} alt='Jay-Z with in suits' />
         </div>
         <div className='title-container'>
           <h3>{title}</h3>

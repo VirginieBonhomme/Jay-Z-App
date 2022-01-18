@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react'
 import api from '../services/apiConfig/index.js'
 import Form from './Form'
 import Header from './Header.jsx'
-import Mission from './Mission.jsx'
 import './Blueprint.css'
 import './Form.css'
 
@@ -38,7 +37,7 @@ export default function Blueprint() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     const fields = input;
-    const res = await api.post("", { fields });
+    await api.post("", { fields });
     setInput(defaultInput);
     setToggle(prevToggle => !prevToggle)
   };
@@ -55,13 +54,14 @@ export default function Blueprint() {
   return (
     <div className='blueprint-container'>
       <Header
-        title="Jigga-Said-What?"
+        title="Hov-Said-What?"
         button="Home"
         route="/"
       />
       <h2>The Blueprint</h2>
-      <p>Being the first of many Jay-Z is a clear blueprint on all things successful. Here are some bars that will inspire you to craft your own blueprint.</p>
-
+      <div className='paragraph-container'>
+        <p>Being the first of many Jay-Z is a clear blueprint on all things successful. Here are some bars that will inspire you to craft your own blueprint.</p>
+      </div>
       <div className='main-lyric-container'>
         {bars.map((bar) => {
           return (

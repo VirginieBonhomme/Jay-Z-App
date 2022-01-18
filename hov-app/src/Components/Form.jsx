@@ -14,7 +14,7 @@ export default function Form(props) {
         <input
           name="album"
           type="text"
-          class="favorite-input"
+          className="favorite-input"
           value={album}
           onChange={props.handleTextInput}
         />
@@ -23,7 +23,7 @@ export default function Form(props) {
         <input
           name="song"
           type="text"
-          class="favorite-input"
+          className="favorite-input"
           value={song}
           onChange={props.handleTextInput}
         />
@@ -32,7 +32,7 @@ export default function Form(props) {
         <input
           name="lyrics"
           type="textarea"
-          class="favorite-input"
+          className="favorite-input"
           value={lyrics}
           onChange={props.handleTextInput}
           style={{ height: "150px" }}

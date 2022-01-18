@@ -9,7 +9,6 @@
 width: 300px;
 overflow: hidden;
 color: aliceblue;
-
 margin:50px auto;
 }
 
@@ -29,4 +28,8 @@ height: 200px;
   height: 50px;
   font-family: 'Aclonica', sans-serif;
   text-align: center;
+}
+
+.description-container{
+  font-size: 15px;
 }

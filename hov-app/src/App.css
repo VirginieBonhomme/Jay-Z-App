@@ -9,6 +9,7 @@ body{
 }
 
 button{
+  width: 150px;
   background-color: #00dffc;
   border-color: #00dffc;
   display:inline-block;
@@ -17,7 +18,7 @@ button{
   border-radius:4em;
   box-sizing: border-box;
   text-decoration:none;
-  font-weight:300;
+  font-size:90%;
   color:#FFFFFF;
   text-align:center;
   transition: all 0.2s;

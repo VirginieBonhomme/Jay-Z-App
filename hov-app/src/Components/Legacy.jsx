@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import api from '../services/apiConfig/index.js'
 import Form from './Form'
 import Header from './Header.jsx'
-import Mission from './Mission.jsx'
+
 
 const defaultInput = {
   category: "",
@@ -53,13 +53,14 @@ export default function Legacy() {
   return (
     <div className='blueprint-container'>
       <Header
-        title="Jigga-Said-What?"
+        title="Hov-Said-What?"
         button="Home"
         route="/"
       />
       <h2>Legacy, Legacy, Legacy</h2>
-      <p>Generational wealth that’s the key. Here are some Jigga bars that can inspire your money moves.</p>
-
+      <div className='paragraph-container'>
+        <p>Generational wealth that’s the key. Here are some Jigga bars that can inspire your money moves.</p>
+      </div>
       <div className='main-lyric-container'>
         {bars.map((bar) => {
           return (

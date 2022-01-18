@@ -36,3 +36,17 @@ textarea {
   width:50%;
   margin:50px auto;
 }
+
+@media(max-device-width: 390px){
+  .favorite-input{
+    width: 100%;
+    padding: 3px;
+  }
+  
+  .main-form-container{
+  
+    width:80%;
+    padding: 13px;
+    margin:50px auto;
+  }
+}

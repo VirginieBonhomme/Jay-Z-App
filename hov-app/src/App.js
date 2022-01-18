@@ -1,11 +1,10 @@
 import { Routes, Route } from 'react-router-dom';
-import './App.css';
 import Blueprint from './Components/Blueprint.jsx';
 import NobodyWins from './Components/NobodyWins.jsx';
 import FriendsOrFoes from './Components/FriendsOrFoes.jsx';
 import Legacy from './Components/Legacy';
 import HomePage from './Components/HomePage';
-
+import './App.css';
 
 
 

@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react'
 import api from '../services/apiConfig/index.js'
 import Form from './Form'
 import Header from './Header.jsx'
-import Mission from './Mission.jsx'
-import './NobodyWins.css'
+
+
 
 const defaultInput = {
   category: "",
@@ -54,13 +54,15 @@ export default function NobodyWins() {
   return (
     <div className='Nobody Wins-container'>
       <Header
-        title="Jigga-Said-What?"
+        title="Hov-Said-What?"
         button="Home"
         route="/"
       />
       <h2>Nobody Wins When The Family Feuds</h2>
-      <p>Jay reminds us  “Let no amount of money ruin this thing of ours.”Here are some bars to remind us that money isn’t worth much with out the ones you love.</p>
-
+      <div className='paragraph-container'>
+        <p>Jay reminds us  “Let no amount of money ruin this thing of ours.”Here are some bars to remind us that money isn’t worth much with out the ones you love.
+        </p>
+      </div>
       <div className='main-lyric-container'>
         {bars.map((bar) => {
           return (
