@@ -1,4 +1,4 @@
-# Jay-Z App
+# Hov-Said-What?
 # 
 
 
@@ -83,12 +83,12 @@ Airtable is returning the data for this base as follows:
 
 | Day      | Deliverable                                | Status   |
 | -------- | ------------------------------------------ | -------- |
-| Jan 10   | Proposal Approval / Airtable Setup         |          |
-| Jan 11-12| Component Creation / Get, Set              |          |
-| Jan 13-14| Component Creation /Post                   |          |
-| Jan 15   | CSS Components                             |          |
-| Jan 16   | Advanced CSS                               |          |
-| Jan 18   | Presentations                              |          |
+| Jan 10   | Proposal Approval / Airtable Setup         |Completed |
+| Jan 11-12| Component Creation / Get, Set              |Completed |
+| Jan 13-14| Component Creation /Post                   |Completed |
+| Jan 15   | CSS Components                             |Completed |
+| Jan 16   | Advanced CSS                               |Completed |
+| Jan 18   | Presentations                              |Completed |
 
 ## Timeframes
 
