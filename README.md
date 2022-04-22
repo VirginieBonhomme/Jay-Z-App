@@ -90,43 +90,6 @@ Airtable is returning the data for this base as follows:
 | Jan 16   | Advanced CSS                               |Completed |
 | Jan 18   | Presentations                              |Completed |
 
-## Timeframes
-
-| Component                 | Priority | Estimated Time | Time Invested | Actual Time |
-| ------------------------- | :------: | :------------: | :-----------: | :---------: |
-| Proposal                  |    H     |      2hrs      |      hrs      |     hrs     |
-| Airtable setup            |    H     |      1hrs      |       hr      |      hr     |
-| Clickable buttons         |    H     |      3hrs      |       hr      |      hr     |
-| Data population pg 1      |    H     |      4hrs      |      hrs      |     hrs     |
-| Data population pg 2      |    H     |      4hrs      |      hrs      |     hrs     |
-| Data population pg 3      |    H     |      4hrs      |      hrs      |     hrs     |
-| Data population pg 4      |    H     |      4hrs      |      hrs      |     hrs     |
-| Form creation pg 1        |    H     |      4hrs      |      hrs      |     hrs     |
-| Form creation pg 2        |    H     |      4hrs      |      hrs      |      hr     |
-| Form creation pg 3        |    H     |      4hrs      |      hrs      |      hr     |
-| Form creation pg 4        |    H     |      4hrs      |      hrs      |      hr     |
-| Data creation/update pg 1 |    H     |      4hrs      |      hrs      |     hrs     |
-| Data creation/update pg 2 |    H     |      4hrs      |      hrs      |      hr     |
-| Data creation/update pg 3 |    H     |      4hrs      |      hrs      |      hr     |
-| Data creation/update pg 4 |    H     |      4hrs      |      hrs      |      hr     |
-| Component CSS pg 1        |    H     |      3hrs      |      hrs      |     hrs     |
-| Component CSS pg 2        |    H     |      3hrs      |      hrs      |     hrs     |
-| Component CSS pg 3        |    H     |      3hrs      |      hrs      |     hrs     |
-| Component CSS pg 4        |    H     |      3hrs      |      hrs      |     hrs     |
-| Total                     |    H     |    66.5hrs     |       hrs     |      hrs    |
-
-## SWOT Analysis
-
-### Strengths:
 
 
-
-### Weaknesses:
-
-
-### Opportunities:
-
-
-
-### Threats:
 
